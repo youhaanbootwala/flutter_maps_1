@@ -45,7 +45,7 @@ Before using it, you will need to make a new project in the **Google Cloud Platf
   ```xml
   <!-- Add your Google Maps API Key here -->
   <meta-data android:name="com.google.android.geo.API_KEY"
-                 android:value="YOUR KEY HERE"/>
+                 android:value="AIzaSyBUz65tAUz21QOGgtK1IGsl-dkcKIitNPU"/>
   ```
 
 * For the **iOS** part, go to `ios/Runner/AppDelegate.swift` file and add your **API key** here.
@@ -68,7 +68,7 @@ You do not require to complete these configurations if you are cloning this proj
    ```xml
    <!-- Add your Google Maps API Key here -->
    <meta-data android:name="com.google.android.geo.API_KEY"
-                  android:value="YOUR KEY HERE"/>
+                  android:value="AIzaSyBUz65tAUz21QOGgtK1IGsl-dkcKIitNPU"/>
    ```
 
 * Also, you will need location access in the app. So, add the following permission in the same file inside the `manifest` tag:
@@ -93,7 +93,7 @@ You do not require to complete these configurations if you are cloning this proj
        didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
      ) -> Bool {
        //Add your Google Maps API Key here
-       GMSServices.provideAPIKey("YOUR KEY HERE")
+       GMSServices.provideAPIKey("AIzaSyBUz65tAUz21QOGgtK1IGsl-dkcKIitNPU")
        GeneratedPluginRegistrant.register(with: self)
        return super.application(application, didFinishLaunchingWithOptions: launchOptions)
      }
